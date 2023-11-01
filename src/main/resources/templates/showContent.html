@@ -576,7 +576,7 @@ span {
 					<td>
 						<form th:action="@{/comment}" method="post" style="text-align: left; ">
 							<input type="hidden" name="id" th:value="${content.id}">
-							<textarea name="comment" rows="8" cols="80" wrap="virtual"></textarea>
+							<textarea name="comment" rows="8" cols="80" wrap="virtual" required></textarea>
 							<br> <br> If you haven't already, would you mind
 							reading about HN's approach to comments and <a
 								href="/newsguidelines"> <u>site guidelines</u>
